@@ -6,6 +6,7 @@
     git commit -m 'Start'
 
 **Login to Github or other service and create a repository.**
+https://github.com/new
 
 Attach new remote repository to local:
     
