@@ -8,8 +8,8 @@ Let's say you have two branches in your repo:
 
 To merge **master** -> **main** you have to switch to the first branch and then merge the second one:
     
-    git checkout main
-    git merge master
+    $ git checkout main
+    $ git merge master
 
 At this point an error may occur:
     
