@@ -6,7 +6,7 @@ Let's say you have two branches in your repo:
 1. main 
 1. master
 
-To merge master -> main you have to swith to the first branch and then merge the second one:
+To merge **master** -> **main** you have to swith to the first branch and then merge the second one:
     
     git checkout main
     git merge master
