@@ -7,7 +7,7 @@
 
     Hello World!
 
-Wrap the entire line in parentheses:
+### Wrap the entire line in parentheses:
 
     yss)
     (Hello World!)
@@ -15,7 +15,7 @@ Wrap the entire line in parentheses:
     yss(
     ( Hello World! )
     
-Wrap word:
+### Wrap word:
     
     ysiw}
     {Hello} World!
