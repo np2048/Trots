@@ -5,10 +5,12 @@
 
 Discard changes and exit:
 
+    <Escape>
     :q!
 
 Save changes and exit:
 
+    <Escape>
     :wq
  
 
