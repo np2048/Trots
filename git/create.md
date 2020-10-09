@@ -1,11 +1,11 @@
 
-# Git create a repositoy from command line
+# Git create a repository from command line
 
     git init 
     git add .
     git commit -m 'Start'
 
-**Login to Github or other service and create a repository.**
+**Login to GitHub or other service and create a repository.**
 https://github.com/new
 
 Attach new remote repository to local:
