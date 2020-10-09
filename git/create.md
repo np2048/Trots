@@ -5,7 +5,7 @@
     git add .
     git commit -m 'Start'
 
-Login to Github or other service and create a repository.
+**Login to Github or other service and create a repository.**
 
 Attach new remote repository to local:
     
