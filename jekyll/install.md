@@ -16,9 +16,20 @@ Jekyll is a ruby gem
 
     $ gem install bundler
 
+At this point you may get an error in the terminal similar to this one:
+
+    WARNING:  You don't have /home/USERNAME/.gem/ruby/2.7.0/bin in your PATH,
+	  gem executables will not run.
+
+It this happens then [add the specified path to the PATH variable](../linux/path-add.md) of your current user profile.
+
+## Update your PATH variable
+
+You have to update your PATH variable in order to be able to run gems.
+
 ## Install Jekyll
 
     $ sudo pacman -S ruby-jekyll-sass-converter
 
-
+If everything is OK you can continue and [create a new site](new.md) using Jekyll.
 
