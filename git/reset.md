@@ -60,6 +60,10 @@ After executing this command the system will be reverted to the state:
 
 <s>$ git commit -m 'Some changes'</s>
 
+## Reset single file
+
+You can add a file name at the end of the *git reset* command to reset a single file. All the rest of the repo will be kept at the current state.
+
 ## How to cancel and undo the reset operation
 
 After a reset commits can become '*orphaned*' which means there is no direct path to access them anymore. These *orphaned* commits can usually be found and restored using **git reflog**.
