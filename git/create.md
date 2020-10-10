@@ -1,19 +1,16 @@
 
 # Git create a repository from command line
 
-When you already have some files in a directory and you want to create a new repository:
+## git clone
 
-    $ git init 
+The easiest way to create a repository is to create it on GitHub and then clone it to a local directory:
+    
+    $ git clone https://github.com/USERNAME/REPOSITORY
+
+If you already have some files in the directory of the repo then you can move them to a temporary dir, clone the repo, move the files back and commit:
+    
     $ git add .
     $ git commit -m 'Start'
+    $ git push
 
-**Login to GitHub or other service and create a repository.**
-https://github.com/new
-
-Attach new remote repository to local:
-    
-    $ git remote add https://github.com/YOUR_LOGIN/NEW_REPOSITORY
-    $ git pull
-    $ git push --set-upstream origin master
-
-If everything is OK you'll be in the **master** branch now. To merge the **master** branch with the **main** branch goto: [Merge](merge.md). 
+This is the most simple way.
