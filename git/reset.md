@@ -18,7 +18,7 @@ The **git reset** command allows you to undo this commands and return the whole 
 
 ## git log
 
-In order to use git reset you have to get the **id** of the commit that you want to come back. You can obtain this information by calling:
+In order to use *git reset* you have to get the **id** of the commit that you want to come back to. You can obtain this information by calling:
 
     $ git log
 
@@ -40,7 +40,7 @@ It is the most powerful and also the most dangerous command of Git.
 
 ## get reset --mixed
 
-Soft reset allows you to undo both **git commit** and **git add** operation. Working directory files are not affected. After mixed reset the repository will be reverted to the state where some changes in the working directory were made since a commit but **git add** and **git commit** commands were not called.
+Mixed reset allows you to undo both **git commit** and **git add** operations. Working directory files are not affected. After a *mixed reset* the repository will be reverted to the state when some changes in the working directory were made since a commit but **git add** and **git commit** commands were not called.
     
     $ git reset --mixed 54b4128173bb244e6da8aa9fdd6afb93ea1f071f
 
