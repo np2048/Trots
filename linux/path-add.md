@@ -5,7 +5,9 @@ How to add a path to the PATH variable for your Linux user profile.
 
 ## Bash
 
-If you are using the [Bash](https://www.gnu.org/software/bash/) shell then edit your *~/.bashrc* file.
+If you are using the [Bash](https://www.gnu.org/software/bash/) shell then edit your *~/.bashrc* file using a text editor:
+
+    $ nano ~/.bashrc
 
 Go to the last line and add a string:
 
@@ -16,7 +18,7 @@ Where:
 
 In order to apply the changes run the same command in the terminal:
 
-    export PATH=/home/dave/work:$PATH
+    export PATH=/the/path/you/need/:$PATH
 
 ## Fish
 
@@ -27,11 +29,8 @@ In order to apply the changes run the same command in the terminal:
 Where:
 - /the/path/you/need/ — is the path that you need to add to the PATH variable
 
-Full guide dedicted to this topic on the official *Fish shell* site:
+Full guide dedicated to this topic on the official *Fish shell* site:
 [https://fishshell.com/docs/current/tutorial.html#path](https://fishshell.com/docs/current/tutorial.html#path)
 
 
 
-
-
-    
