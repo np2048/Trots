@@ -60,9 +60,9 @@ After executing this command the system will be reverted to the state:
 
 <s>$ git commit -m 'Some changes'</s>
 
-## Reset single file
+## Reset a single file
 
-You can add a file name at the end of the *git reset* command to reset a single file. All the rest of the repo will be kept at the current state.
+You can add a file name at the end of the *git reset* command to reset a single file. All the rest of the repo will remain in its current state.
 
 ## How to cancel and undo the reset operation
 
