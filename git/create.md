@@ -1,9 +1,9 @@
 
-# Git create a repository from command line
+# Create new Git repository from command line
 
 ## git clone
 
-The easiest way to create a repository is to create it on GitHub and then clone it to a local directory:
+The easiest way to create a repository is to create it on GitHub (or other similar service) and then clone it into a local directory:
     
     $ git clone https://github.com/USERNAME/REPOSITORY
 
