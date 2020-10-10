@@ -3,9 +3,11 @@
 
 The best free and open source git client at this moment is [GitAhead](https://gitahead.github.io/gitahead.com/).
 
+![GitAhead preview](https://gitahead.github.io/gitahead.com/images/dark@2x.png)
+
 # Installation
 
-## Download the distro from the official site:
+## Download the distro from the official website:
 
     https://gitahead.github.io/gitahead.com/
 
