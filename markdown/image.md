@@ -7,6 +7,6 @@ How to insert an image in a markdown document:
 
 ## Example
 
-    ![GitAhead preview](https://gitahead.github.io/gitahead.com/images/dark@2x.png)
+    ![Google.com Logo](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 
-![GitAhead preview](https://gitahead.github.io/gitahead.com/images/dark@2x.png)
+![Google.com Logo](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
