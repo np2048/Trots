@@ -47,8 +47,4 @@ Confirm the installation path:
 If you don't like GitAhead you can choose another GUI client:
 
 - [git-scm.com](https://git-scm.com/download/gui/linux)
-    
-    https://git-scm.com/download/gui/linux
-
-
 
