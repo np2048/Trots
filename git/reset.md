@@ -30,6 +30,8 @@ It will show you the list of commits, it's authors, date and descriptions:
 
 In this example *54b4128173bb244e6da8aa9fdd6afb93ea1f071f* is the commit id.
 
+<a name="hard"></a>
+
 ## git reset --hard
 
 This command will undo all the changes made after a commit and revert the working directory to the state that it had just after the commit:
@@ -37,6 +39,8 @@ This command will undo all the changes made after a commit and revert the workin
     $ git reset --hard 54b4128173bb244e6da8aa9fdd6afb93ea1f071f
 
 It is the most powerful and also the most dangerous command of Git.
+
+<a name="mixed"></a>
 
 ## get reset --mixed
 
@@ -47,6 +51,8 @@ Mixed reset allows you to undo both **git commit** and **git add** operations. W
 <s>$ git add .</s>
 
 <s>$ git commit -m 'Some changes'</s>
+
+<a name="soft"></a>
 
 ## git reset --soft
 
@@ -68,7 +74,7 @@ You can add a file name at the end of the *git reset* command to reset a single 
 
 After a reset commits can become '*orphaned*' which means there is no direct path to access them anymore. These *orphaned* commits can usually be found and restored using **git reflog**.
 
-The information of all the commits that have been reset will be marked for deletion and will be destroyed by *git garbage coollector* which usually runs every 30 days.
+The information of all the commits that have been reset will be marked for deletion and will be destroyed by *git garbage collector* which usually runs every 30 days.
 
 ## Read more
 
