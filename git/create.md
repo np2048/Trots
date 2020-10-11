@@ -14,3 +14,13 @@ If you already have some files in the directory of the repo then you can move th
     $ git push
 
 This is the most simple way.
+
+## GitHub command line tool
+
+You can creat a repository on GitHub using official command line utility:
+https://github.com/cli/cli
+
+    $ gh repo create NAME --description "New repo"
+
+Detailed manual available at the official documentation website:
+https://cli.github.com/manual/
