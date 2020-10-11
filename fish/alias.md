@@ -1,7 +1,7 @@
 
-# fish shell aliases
+# Fish shell aliases
 
-You can use the **alias** keyword to define aliases for shell commands in fish shell. 
+You can use **alias** keyword to define aliases for shell commands in *Fish shell*. 
 
 To test the alias you can define it just in the terminal by executing the command:
     
@@ -14,7 +14,7 @@ Example:
 
     $ alias ls='lsd -a --group-dirs first'
 
-If you execute this command in a terminal running fish shell the alias will be set. In result every time you'll run 
+If you execute this command in a terminal running *Fish shell* the alias will be set. In result every time you'll run 
 
     $ ls 
 
