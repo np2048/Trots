@@ -10,7 +10,7 @@ To test the alias you can define it just in the terminal by executing the comman
 To make the alias permanent you can add the same line into the [config.fish](config.md) file.
 
     
-Example:
+>Example:
 
     $ alias ls='lsd -a --group-dirs first'
 
