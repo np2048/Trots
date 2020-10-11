@@ -44,7 +44,7 @@ With *Vundle* you can manage plugins not only from GitHub, but also from almost 
 
 ## Install plugins from added list
 
-When you add plugins to your .vimrc file they are not installed immediately of VIM start. You have run a command in VIM to install the plugins:
+When you add plugins to your [.vimrc](vimrc.md) file they are not installed immediately of VIM start. You have run a command in VIM to install the plugins:
     
     :PluginInstall
 
@@ -66,7 +66,7 @@ Now copy the line:
     
     Plugin NEW_PLUGIN_NAME
 
-And paste it in the plugins list at your .vimrc file. More detailed instruction you can find in the tutorial: https://linuxhint.com/vim-vundle-tutorial/
+And paste it in the plugins list at your [.vimrc](vimrc.md) file. More detailed instruction you can find in the tutorial: https://linuxhint.com/vim-vundle-tutorial/
 
 
 ## List installed plugins in VIM
@@ -87,10 +87,10 @@ Then move the cursor to the plugin that you want to delete and press
 
 The plugin should be deleted.
 
-When it's done open .vimrc file and remove the line for deleted plugin from *Vundle* plugins list save the file.
+When it's done open [.vimrc](vimrc.md) file and remove the line for deleted plugin from *Vundle* plugins list save the file.
 
 
 ## Read more
 
-- Official: [https://github.com/VundleVim/Vundle.vim.git](https://github.com/VundleVim/Vundle.vim.git)
-- Tutorial: [https://linuxhint.com/vim-vundle-tutorial/](https://linuxhint.com/vim-vundle-tutorial/)
+- Nice tutorial with screenshots and examples: [https://linuxhint.com/vim-vundle-tutorial/](https://linuxhint.com/vim-vundle-tutorial/)
+- Official documentation: [https://github.com/VundleVim/Vundle.vim.git](https://github.com/VundleVim/Vundle.vim.git)
