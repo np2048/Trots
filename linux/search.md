@@ -27,13 +27,13 @@ You can search file contents using the **grep** utility:
 
     $ grep -r 'File contents'
 
-will search for string 'File contents' in any files of the current directory
+will search for string 'File contents' in all files of the current directory
 
 >Example:
 
     $ grep -r 'File contents' /home
 
-will search for string 'File contents' in any files of the /home directory
+will search for string 'File contents' in all files of the /home directory
 
 ## GUI utilities for searching files
 
