@@ -11,4 +11,4 @@ You can get COMMIT_ID using **git log** command:
     $ git checkout 'master'
     $ git log
 
->Don't use **rebase** on public branches. Instead of this use cherry-pick to pick commits into your branch from another branch.
+>Don't use **rebase** on public branches. Instead of this use [cherry-pick](https://git-scm.com/docs/git-cherry-pick) to pick commits into your branch from another branch.
