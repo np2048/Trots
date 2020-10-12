@@ -24,13 +24,13 @@ It won't work with SSD and will just cause some wear. Try to find an utility for
 
 ### Important options:
 
-- **-u** Actually delete the file. Without this argument it will just rewrite the file with fake data.
+**-u** Actually delete the file. Without this argument it will just rewrite the file with fake data.
 
-- **-n NUMBER** Define the number of file rewriting with 0 and 1 data. This parameter significantly affects the speed of the operation. Default value is 3.
+**-n NUMBER** Define the number of file rewriting with 0 and 1 data. This parameter significantly affects the speed of the operation. Default value is 3.
 
-- **-z** Add a final overwrite with zeros to hide shredding.
+**-z** Add a final overwrite with zeros to hide shredding.
 
-- **-v** Show progress.
+**-v** Show progress.
 
 ### Example of typical usage:
     
