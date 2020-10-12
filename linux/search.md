@@ -35,6 +35,8 @@ will search for string 'File contents' in all files of the current directory
 
 will search for string 'File contents' in all files of the /home directory
 
+>More about grep: [https://www.techrepublic.com/article/10-ways-to-use-grep-to-search-files-in-linux/](https://www.techrepublic.com/article/10-ways-to-use-grep-to-search-files-in-linux/)
+
 ## GUI utilities for searching files
 
 - By name and contents: [catfish](https://git.xfce.org/apps/catfish/about/)
