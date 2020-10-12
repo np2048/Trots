@@ -26,11 +26,11 @@ It won't work with SSD and will just cause some wear. Try to find an utility for
 
 **-u**
 
-Actually delete the file. Without that option it will just rewrite the file with fake data.
+Actually delete the file. Without this argument it will just rewrite the file with fake data.
 
 **-n NUMBER** 
 
-Define the number of file rewriting with 0 and 1 data. This parameter significantly affects the speed of the operation. Default value is 3
+Define the number of file rewriting with 0 and 1 data. This parameter significantly affects the speed of the operation. Default value is 3.
 
 **-z, --zero**
 
