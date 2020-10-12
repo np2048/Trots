@@ -58,5 +58,9 @@ All files in a directory (not recursively):
     
     $ shred -uz tmp/*
 
+## Read more
+
+[How to Securely Delete Files on Linux](https://www.howtogeek.com/425232/how-to-securely-delete-files-on-linux/)
+
 
 
