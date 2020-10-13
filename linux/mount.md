@@ -15,7 +15,7 @@ Where:
 
 ## Create a mount point
 
-Mount point is just a directory that is used to mount devices which contain valid filesystems. So, if you want to create a mount point at */mnt* just run a mkdir command:
+Mount point is just a directory that is used to mount devices which contain valid filesystems. So, if you want to create a mount point at */mnt* just run a *mkdir* command:
 
     $ cd /mnt
     $ sudo mkdir sda5
