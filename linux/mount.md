@@ -11,6 +11,12 @@ Where:
 
 **/mnt/sda5** is the mount point.
 
+## Unmount
+
+To unmount the partition:
+    
+    $ sudo umount /dev/sda5
+
 <a name="mountpoint"></a>
 
 ## Create a mount point
