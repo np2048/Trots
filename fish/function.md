@@ -9,7 +9,7 @@ Let's say you want to define an alias to run a program in background:
 
 If you just define an alias for that in will return an error because Fish won't know where to put some arguments for this command, so it will put them just at the end and it will lead to an error. To avoid the error you can define a function instead of an alias. 
 
-Edit your [config.fish](config) and add the function:
+Edit your [config.fish](config.md) and add the function:
 
     function gitahead
         command ~/opt/GitAhead/GitAhead $argv &
