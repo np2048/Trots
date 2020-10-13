@@ -21,3 +21,8 @@ If you execute this command in a terminal running *Fish shell* the alias will be
 fish will actually execute 
     
     $ lsd -a --group-dirs first
+
+
+## Read more
+
+[Aliases in Fish shell documentation](https://fishshell.com/docs/current/cmds/alias.html#cmd-alias)
