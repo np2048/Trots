@@ -20,6 +20,16 @@ Mount point is just a directory that is used to mount devices which contain vali
     $ cd /mnt
     $ sudo mkdir sda5
 
+It you want to allow other users to read and write to the mounted filesystem you should add some permissions.
+
+Add read permissions for everyone:
+    
+    $ sudo chmod a+r sda5/
+
+Add write permissions for everyone:
+    
+    $ sudo chmod a+w sda5/
+
 ## Read more
 
 [Create and mount filesystems in Linux](https://www.linuxsysadmins.com/create-and-mount-filesystems-in-linux/)
