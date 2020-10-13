@@ -72,7 +72,7 @@ You can add a file name at the end of the *git reset* command to reset a single 
 
 ## How to cancel and undo the reset operation
 
-After a reset commits can become '*orphaned*' which means there is no direct path to access them anymore. These *orphaned* commits can usually be found and restored using **git reflog**.
+After a reset commits can become '*orphaned*' which means there is no direct path to access them anymore. These *orphaned* commits can usually be found using [git reflog](reflog.md). When you've found the ID of an orphaned commit you can *reset* to it back, and so the repository state will be recovered.
 
 The information of all the commits that have been reset will be marked for deletion and will be destroyed by *git garbage collector* which usually runs every 30 days.
 
