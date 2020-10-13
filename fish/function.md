@@ -1,7 +1,7 @@
 
 # Functions in Fish shell
 
-In Fish shell you can define not only [aliases](alias.md) but also functions. You may treat a function as an advanced form of an alias.
+In *Fish shell* you can define not only [aliases](alias.md) but also functions. You may treat a function as an advanced form of an alias.
 
 Let's say you want to define an alias to run a program in background:
     
