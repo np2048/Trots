@@ -20,6 +20,12 @@ If you want to encrypt your data just for yourself i.e you are not planning to s
     # Specify the encryption algorithm
     $ gpg --symmetric --cipher-algo AES256
 
+    # Specify output file
+    gpg --output message.txt.gpg --symmeteric message.txt
+    
+    # Encrypt and sign (all in the single output file)
+    gpg --sign --symmetric message.txt
+
 
 ## List available keys
 
@@ -64,3 +70,4 @@ When you finished editing a key enter the save command to apply the changes:
 
 [GPG Tutorial](https://www.devdungeon.com/content/gpg-tutorial#encrypt_symmetrically)
 
+[GnuPG in Arch Linux wiki](https://wiki.archlinux.org/index.php/GnuPG)
