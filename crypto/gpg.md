@@ -1,6 +1,8 @@
 
 # GNU Privacy Guard quick start
 
+<a name="init"></a>
+
 ## Initialize the key chain
 
     $ gpg --gen-key
@@ -30,6 +32,18 @@ If you want to encrypt your data just for yourself i.e you are not planning to s
 ## List available keys
 
     $ gpg --list-keys
+
+## Add a subkey
+
+Subkeys are like the normal keys, except they're bound to a master key pair. Subkeys can be revoked independently of the master keys, and also stored separately from them. 
+
+    $ gpg --list-keys
+    $ gpg --edit-key USER_EMAIL
+    gpg> addkey
+    
+    ...
+    
+    gpg> save
 
 ## Change expiration date of a key
 
@@ -71,3 +85,4 @@ When you finished editing a key enter the save command to apply the changes:
 [GPG Tutorial](https://www.devdungeon.com/content/gpg-tutorial#encrypt_symmetrically)
 
 [GnuPG in Arch Linux wiki](https://wiki.archlinux.org/index.php/GnuPG)
+
