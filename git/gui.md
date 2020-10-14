@@ -23,11 +23,14 @@ Save the installation shell script (for now it is **GitAhead-2.6.3.sh**) and ope
 Let's say you want to store the app at **~/opt/GitAhead** path:
 
     $ mkdir ~/opt
-    $ cp GitAhead-2.6.3.sh ~/opt
+    $ mv GitAhead-2.6.3.sh ~/opt
 
 ## Run the installation script
-    
+
+Add execution permissions to the downloaded script and run:
+
     $ cd ~/opt
+    $ chmod a+x GitAhead-2.6.3.sh
     $ ./GitAhead-2.6.3.sh
     
     By default GitAhead will be installed in:
