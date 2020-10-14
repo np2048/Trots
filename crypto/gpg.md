@@ -30,6 +30,8 @@ If you want to encrypt your data just for yourself i.e you are not planning to s
     # Encrypt and sign (all in the single output file)
     gpg --sign --symmetric message.txt
 
+**-c, --symmetric** use symmetric encryption
+
 <a name='decrypt'></a>
 
 ## Decrypt a messge
