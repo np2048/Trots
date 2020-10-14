@@ -7,6 +7,8 @@
 
     $ gpg --gen-key
 
+<a name='sym'></a>
+
 ## Symmetric encryption
 
 If you want to encrypt your data just for yourself i.e you are not planning to share it with other people than symmetric encryption is the best choice:
@@ -28,10 +30,13 @@ If you want to encrypt your data just for yourself i.e you are not planning to s
     # Encrypt and sign (all in the single output file)
     gpg --sign --symmetric message.txt
 
+<a name='list'></a>
 
 ## List available keys
 
     $ gpg --list-keys
+
+<a name='sub'></a>
 
 ## Add a subkey
 
@@ -44,6 +49,8 @@ Subkeys are like the normal keys, except they're bound to a master key pair. Sub
     ...
     
     gpg> save
+
+<a name='expire'></a>
 
 ## Change expiration date of a key
 
@@ -79,6 +86,8 @@ When you finished editing a key enter the save command to apply the changes:
 # View supported by current version algorithms list
 
     $ gpg --version
+
+<a name='more'></a>
 
 ## Read more
 
