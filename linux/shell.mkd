@@ -1,0 +1,11 @@
+
+# How to change default shell in Linux
+
+    chsh USERNAME
+    
+    Changing shell for USERNAME.
+    Password: 
+    New shell [/bin/zsh]: /usr/bin/fish
+    Shell changed.
+
+**Log out and log in to apply the changes.**
