@@ -54,6 +54,13 @@ When you finished editing a key enter the save command to apply the changes:
 
     gpg> save
 
+<a name='version'></a>
+
+# View supported by current version algorithms list
+
+    $ gpg --version
+
 ## Read more
 
 [GPG Tutorial](https://www.devdungeon.com/content/gpg-tutorial#encrypt_symmetrically)
+
