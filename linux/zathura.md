@@ -66,6 +66,12 @@ You can adjust background and font face colors:
     set recolor-lightcolor "#2C4441"
     set recolor-darkcolor "#B6D0CD"
 
+## Define new hotkeys
+
+You can define new hotkeys using the command map in the config file or in the program console:
+
+    map KEY COMMAND
+
 ## Enable copy to clipboard
 
     set selection-clipboard clipboard
