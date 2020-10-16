@@ -147,6 +147,10 @@ Let's say you want to download a software package from a website. It is wise to 
 The verification process consists of a few steps:
 
 1. Download the public key for the signature. 
+1. Import the key to the **gpg keychain**:
+
+    $ gpg --import signing.key
+
 1. Make sure that the key is not tampered. You can achieve it by using the [Web of trust](https://en.wikipedia.org/wiki/Web_of_trust). Read the documentation on the site that you download the software from to find some tips about the verification process. 
 
 Mainstream developers such as associated with *Debian* or *Gnome* often provide keys packages that you can install using your package manager. 
@@ -172,4 +176,6 @@ In *Arch Linux* you can also install *debian-keyring* package (it's in AUR) and 
 [GPG Tutorial](https://www.devdungeon.com/content/gpg-tutorial#encrypt_symmetrically)
 
 [GnuPG in Arch Linux wiki](https://wiki.archlinux.org/index.php/GnuPG)
+
+[Creating GPG Keys — Fedora wiki](https://fedoraproject.org/wiki/Creating_GPG_Keys)
 
