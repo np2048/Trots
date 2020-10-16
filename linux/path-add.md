@@ -22,15 +22,7 @@ In order to apply the changes run the same command in the terminal:
 
 ## Fish
 
-[Fish shell](https://fishshell.com) allows you to permanently update your path variable just by executing a  single command in the terminal:
-
-    $ set -U fish_user_paths /the/path/you/need/ $fish_user_paths
-
-Where:
-- /the/path/you/need/ — is the path that you need to add to the PATH variable
-
-Full guide dedicated to this topic on the official *Fish shell* site:
-[https://fishshell.com/docs/current/tutorial.html#path](https://fishshell.com/docs/current/tutorial.html#path)
+[Fish shell](https://fishshell.com) allows you to permanently update your path variable just by executing a  single command in the terminal. Refer to the [fish/path.md](../fish/path.md) trot.
 
 
 
