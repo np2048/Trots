@@ -18,7 +18,7 @@ When installation is completed run the *Tor Browser Launcher*:
     
     $ flatpak run com.github.micahflee.torbrowser-launcher
 
->For the convenience you cat save this command into a script, for example *~/opt/tor.sh* and start *Tor Browser* by just running that script.
+>For convenience you can save this command into a script, for example *~/opt/tor.sh* and start *Tor Browser* by just running that script.
 
 ## Default downloads directory location
 
