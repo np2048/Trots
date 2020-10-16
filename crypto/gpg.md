@@ -1,6 +1,27 @@
 
 # GNU Privacy Guard quick start
 
+## Contents
+
+[Initialize the key chain](#init)
+
+[Symmetric encryption](#sym)
+
+[Decrypt a messge](#decrypt)
+
+[List available keys](#list)
+
+[Add a subkey](#sub)
+
+[Change expiration date of a key](#expire)
+
+[Verify a signature](#sig)
+
+[View supported by current version algorithms list](#version)
+
+[Read more](#more)
+
+
 <a name="init"></a>
 
 ## Initialize the key chain
@@ -117,9 +138,30 @@ When you finished editing a key enter the save command to apply the changes:
 
     gpg> save
 
+<a name='sig'></a>
+
+## Verify a signature
+
+Let's say you want to download a software package from a website. It is wise to make sure that it wasn't tampered by someone. You can verify the software signature to do so if it is provided by the developers.
+
+The verification process consists of a few steps:
+
+1. Download the public key for the signature. 
+1. Make sure that the key is not tampered. You can achieve it by using the [Web of trust](https://en.wikipedia.org/wiki/Web_of_trust). Read the documentation on the site that you download the software from to find some tips about the verification process. 
+
+Mainstream developers such as associated with *Debian* or *Gnome* often provide keys packages that you can install using your package manager. 
+
+In *Arch Linux* you can also install *debian-keyring* package (it's in AUR) and use it to verify the keys:  
+    
+    $ pamac build debian-keyring
+
+3. test
+
+
+
 <a name='version'></a>
 
-# View supported by current version algorithms list
+## View supported by current version algorithms list
 
     $ gpg --version
 
