@@ -7,15 +7,20 @@
 
 Search files by name:
 
-    $ find [PATH] [FILENAME]
+    $ find [PATH] -name 'FILENAME'
 
 Default path is current directory.
 
 You can use * in FILENAME as wildcard symbol:
     
-    $ find *config*
+    $ find -name '*config*'
 
-will return all a list of all files containing *config* anywhere in the name.
+will return all a list of all files containing *config* anywhere in the file name.
+
+The *find* utility is able to filter files by a variety of parameters, not only filename. And also it is able to execute some commands to bulk process the files. Refer to --help and *man* to get more detailed info:
+
+    $ find --help
+    $ man find
 
 ### By contents
 
@@ -42,3 +47,6 @@ will search for string 'File contents' in all files of the /home directory
 - By name and contents: [catfish](https://git.xfce.org/apps/catfish/about/)
 - By name: [gnome-search-tool](https://gitlab.gnome.org/Archive/gnome-search-tool)
 
+## Read more
+
+[Findutlis documentation on GNU.org](https://www.gnu.org/software/findutils/)
