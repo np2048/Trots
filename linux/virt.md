@@ -24,5 +24,18 @@ It is also recommended to add current user into *libvirtd* group:
 
     $ sudo usermod -G libvirtd -a USERNAME
 
+## VM disk images storage path
+
+By default the VM disk images are stored at
+
+    /var/lib/libvirt/images/
+
+### Import VM disk images from VirtualBox
+
+The virt-manager store VM disk images into the **.qcow2* files. You can convert a VirtualBox VM disk image into that format by running a command:
+    
+    sudo qemu-img convert -f vdi -O qcow2 VIRTUALBOX-IMAGE.vdi /var/lib/libvirt/images/VIRT-MANAGER-IMAGE.qcow2
+
+
 
 
