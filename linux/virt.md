@@ -24,6 +24,12 @@ It is also recommended to add current user into *libvirtd* group:
 
     $ sudo usermod -G libvirtd -a USERNAME
 
+<a name='ssh'></a>
+
+## SSH into virtual machine from the host
+
+
+
 ## VM disk images storage path
 
 By default the VM disk images are stored at
