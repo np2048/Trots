@@ -49,6 +49,10 @@ You can transfer files securely via SSH using *scp* command:
 
 >Note that you can only copy files to a directory where the username you specified has write permissions.
 
+Copy files recursively:
+    
+    $ scp -r * pragmalin@debianvm:/home/pragmalin
+
 Example:
 
     $ scp wordpress-5.4.2.tar.gz pragmalin@debianvm:/home/pragmalin
