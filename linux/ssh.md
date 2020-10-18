@@ -57,6 +57,10 @@ Example:
 
     $ scp wordpress-5.4.2.tar.gz pragmalin@debianvm:/home/pragmalin
 
+### SFTP
+
+Once you have installed SSH server you can connect to it and transfer files using an FTP client as [Filezilla](https://filezilla-project.org/) in SFTP protocol.
+
 ## SSH into a virtual machine
 
 You can login into a virtual machine using SSH and configure it from your local environment:
