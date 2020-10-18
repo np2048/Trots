@@ -47,6 +47,8 @@ You can login into a virtual machine using SSH and configure it from your local 
 
 [VirtualBox](virtual-box.md#ssh)
 
+[virt-manager](virt-manager.md#ssh)
+
 
 
 ## Read more
