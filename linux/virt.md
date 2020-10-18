@@ -28,6 +28,11 @@ It is also recommended to add current user into *libvirtd* group:
 
 ## SSH into virtual machine from the host
 
+In order to be able to connect to a virtual machine using SSH first you have to [install SSH server](ssh.md#install) into the VM and run it.
+
+When SSH server is installed and running you have to get the IP address. You can get the address into the VM by executing [ip address](ip.md) or you can open the virtual machine **info** tab and find the address at the virtual network interface profile:
+
+![virt-manager ip](virt-manager/ip.png)
 
 
 ## VM disk images storage path
