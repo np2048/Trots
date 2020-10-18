@@ -40,7 +40,13 @@ By default the VM disk images are stored at
 
 The virt-manager store VM disk images into the **.qcow2* files. You can convert a VirtualBox VM disk image into that format by running a command:
     
-    sudo qemu-img convert -f vdi -O qcow2 VIRTUALBOX-IMAGE.vdi /var/lib/libvirt/images/VIRT-MANAGER-IMAGE.qcow2
+    $ sudo qemu-img convert -f vdi -O qcow2 VIRTUALBOX-IMAGE.vdi /var/lib/libvirt/images/VIRT-MANAGER-IMAGE.qcow2
+
+>Unfortunately sometimes Linux doesn't boot on new VM with a converted image.
+
+## Read more
+
+(https://www.maketecheasier.com/change-uuid-in-virtualbox-hdds/)
 
 
 
