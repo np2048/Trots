@@ -26,7 +26,7 @@ It is also recommended to add current user into *libvirtd* group:
 
 <a name='ssh'></a>
 
-## SSH into virtual machine from the host
+## SSH into a virtual machine from the host
 
 In order to be able to connect to a virtual machine using SSH first you have to [install SSH server](ssh.md#install) into the VM and run it.
 
