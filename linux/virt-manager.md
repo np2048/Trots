@@ -49,10 +49,5 @@ The virt-manager store VM disk images into the **.qcow2* files. You can convert 
 
 >Unfortunately sometimes Linux doesn't boot on new VM with a converted image.
 
-## Read more
-
-(https://www.maketecheasier.com/change-uuid-in-virtualbox-hdds/)
-
-
 
 
