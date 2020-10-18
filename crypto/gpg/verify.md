@@ -7,7 +7,7 @@ The verification process consists of a few steps:
 1. Download the public key for the signature. 
 1. Import the key to the **gpg keychain**:
 
-    $ gpg --import signing.key
+        $ gpg --import signing.key
 
 1. Make sure that the key is not tampered. You can achieve it by using the [Web of trust](https://en.wikipedia.org/wiki/Web_of_trust). Read the documentation on the site that you download the software from to find some tips about the verification process. 
 
@@ -26,7 +26,7 @@ The verification process consists of a few steps:
 
 1. Run the signature verification process:
 
-    $ gpg --verify SIGNATURE.sig
+        $ gpg --verify SIGNATURE.sig
 
     Example: 
     
