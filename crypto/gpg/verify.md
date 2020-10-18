@@ -1,6 +1,6 @@
 # GnuPG — Verify a signature
 
-Let's say you want to download a software package from a website. It is wise to make sure that it wasn't tampered by someone. You can verify the software signature to do so if it is provided by the developers.
+Let's say you want to download a software package from a website. It is wise to make sure that it wasn't tampered by someone. You can verify the software signature if it is provided by the developers to make sure the package hasn't been tampered.
 
 The verification process consists of a few steps:
 
@@ -9,7 +9,7 @@ The verification process consists of a few steps:
 
         $ gpg --import signing.key
 
-1. Make sure that the key is not tampered. You can achieve it by using the [Web of trust](https://en.wikipedia.org/wiki/Web_of_trust). Read the documentation on the site that you download the software from to find some tips about the verification process. 
+1. Prepare your *gpg keychain* for key verification. Signing key verification is essential to make sure that the key was not tampered. You can achieve it by using the [Web of trust](https://en.wikipedia.org/wiki/Web_of_trust). Read the documentation on the site that you download the software from to find some tips about the verification process. 
 
     Mainstream developers such as associated with *Debian* or *Gnome* often provide keys packages that you can install using your package manager. 
     
