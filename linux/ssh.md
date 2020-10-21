@@ -69,7 +69,9 @@ You can login into a virtual machine using SSH and configure it from your local 
 
 [virt-manager](virt-manager.md#ssh)
 
+## SSH into an Android device
 
+You can [configure an SSH server on an Android device](../android/ssh.md).
 
 ## Read more
 
