@@ -37,7 +37,7 @@ Generate a key-pair on a **client** machine (where your ssh **client** is instal
 
 At this step you will be asked to enter the user name and a password that will be used for authorization.
 
-It will generate a pair of key-files in your *~/.shh* directory: a **public** (*id_rsa.pub* if you've choosen RSA encryption algorithm which is used by default) one and a private key (*id_rsa*). 
+It will generate a pair of key-files in your *~/.shh* directory: a **public** one (*id_rsa.pub* if you've choosen RSA encryption algorithm which is used by default) and a private key (*id_rsa*). 
 
 ### Transfer the public key-file from client to the SSH server
 
