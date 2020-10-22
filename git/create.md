@@ -7,7 +7,7 @@ The easiest way to create a repository is to create it on GitHub (or other simil
     
     $ git clone https://github.com/USERNAME/REPOSITORY
 
-To make it all from command-line you can use the [gh](#gh) tool.
+To make it all from command-line you can use the [gh tool](#gh).
 
 If you already have some files in the directory of the repo then you can move them to a temporary dir, clone the repo, move the files back and commit:
     

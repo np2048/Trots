@@ -10,6 +10,8 @@ When you already have some files in a directory and you want to create a new rep
 **Login to GitHub or other service and create a repository.**
 https://github.com/new
 
+Or use the [gh command line tool](create.md#gh).
+
 Attach new remote repository to local:
     
     $ git remote add https://github.com/USERNAME/REPOSITORY

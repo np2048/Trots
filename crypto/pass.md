@@ -62,6 +62,29 @@ Add **-c** option to copy password to the clipboard instead of showing it in the
 
     $ pass cp [ --force, -f ] OLD_PATH NEW_PATH
 
+## Backup and sync passwords using GitHub
+
+    $ pass git init
+
+This will create a common git repository inside the password storage directory. You can execute any git commands inside of this directory:
+
+    $ cd ~/.password-store
+
+In order to be able to upload files to the GitHub you have to [create a remote repository](../git/create.md#gh) and define remote origin for the current branch:
+
+    $ git remote add https://github.com/USERNAME/REPOSITORY
+
+Once it's done you can execute common *git push* and *git pull* commands to upload and download new information about the passwords to and from the repository.
+
+Upload all new data to *GitHub*:
+
+    $ git add .
+    $ git commit -m 'Some password changes'
+    $ git push
+
+Check for changes on the remote repository and apply them to local files:
+
+    $ git pull
 
 ## Manually decrypt a password file
 
