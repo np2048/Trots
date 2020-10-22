@@ -62,6 +62,7 @@ Add **-c** option to copy password to the clipboard instead of showing it in the
 
     $ pass cp [ --force, -f ] OLD_PATH NEW_PATH
 
+
 ## Manually decrypt a password file
 
 You can manually decrypt a password file from the storage using [gpg](gpg.md#decrypt):
