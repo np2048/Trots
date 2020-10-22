@@ -1,6 +1,20 @@
 
 # How to determine your own IP address in Linux
 
+## Short version
+
+    $ ip -br address
+
+**-br** option stands for **brief**
+
+More readable result (with colors):
+    
+    $ ip -br -c address
+
+**-c** option stands for **color**
+
+## Detailed info
+
 Execute in the terminal:
 
     $ ip address
