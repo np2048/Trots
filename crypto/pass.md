@@ -11,7 +11,7 @@ Before you start using *pass* you have to [initialize a gpg keychain](gpg.md#ini
     
     $ pass init KEY_ID
 
-You can get the KEY_ID as described in [gpg trot](gpg.md#list)
+You can get the KEY_ID as described in [gpg trot](gpg/list.md)
 
 ## Dedicated keys for certain subdirectories
 
@@ -94,7 +94,7 @@ Check for changes on the remote repository and apply them to local files:
 
 ## Manually decrypt a password file
 
-You can manually decrypt a password file from the storage using [gpg](gpg.md#decrypt):
+You can manually decrypt a password file from the storage using [gpg](gpg/decrypt.md):
     
     $ gpg -d ~/.password_store/[SUBDIRECTORY/]FILENAME
 
