@@ -13,6 +13,12 @@ Before you start using *pass* you have to [initialize a gpg keychain](gpg.md#ini
 
 You can get the KEY_ID as described in [gpg trot](gpg.md#list)
 
+## Dedicated keys for certain subdirectories
+
+You can assign a separate key to a directory inside of your *.password_store*:
+
+    $ pass init -p SUBDIRECTORY KEY_ID
+
 ## Add a password
 
 You can organize your password files in a common directory structure:
