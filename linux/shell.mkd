@@ -1,6 +1,14 @@
 
 # How to change default shell in Linux
 
+    $ chsh -s /usr/bin/fish
+
+where:
+
+- **/usr/bin/fish** — path to the new shell
+
+Change shell in dialog mode:
+
     chsh USERNAME
     
     Changing shell for USERNAME.
