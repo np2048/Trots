@@ -41,6 +41,34 @@ To configure the SSH service script on Arch Linux, you need to open the configur
     $ man sshd_config / config files 
     $ sudo nano /etc/ssh/sshd_config
 
+## Connect to a server via SSH
+
+    $ ssh USER@IP -p PORT
+
+where:
+
+- **USER** — login
+- **IP** — ip address of the remote host
+- **PORT** — port number of the SSH server on the remote host (default: 22)
+
+When you connect to a server for the first time SSH will ask you to accept it's footprint:
+
+    The authenticity of host '[192.168.1.1]:8022 ([192.168.1.1]:8022)' can't be established.
+    ECDSA key fingerprint is SHA256:A123/1231092381KJDLFJS09342034JDSLF.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+    Warning: Permanently added '[192.168.1.1]:8022' (ECDSA) to the list of known hosts.
+
+If you confirm then the server's footprint will be added to your local *.ssh/known_hosts* list. If the server will be reinstalled in the future on the same ip so it's footprint will be changed and you'll get the following error if you try to connect again from the same client:
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+
+If you trust the remote host and you are pretty sure that everything is OK so you can delete the old footprint from your *.ssh/known_hosts* file and connect again to accept new footprint.
+
 ## Transfer files
 
 You can transfer files securely via SSH using *scp* command:
@@ -57,10 +85,6 @@ Example:
 
     $ scp wordpress-5.4.2.tar.gz pragmalin@debianvm:/home/pragmalin
 
-### SFTP
-
-Once you have installed SSH server you can connect to it and transfer files using an FTP client as [Filezilla](https://filezilla-project.org/) in SFTP protocol.
-
 ## SSH into a virtual machine
 
 You can login into a virtual machine using SSH and configure it from your local environment:
@@ -72,6 +96,10 @@ You can login into a virtual machine using SSH and configure it from your local 
 ## SSH into an Android device
 
 You can [configure an SSH server on an Android device](../android/ssh.md).
+
+### SFTP
+
+Once you have installed SSH server you can connect to it and transfer files using an FTP client as [Filezilla](https://filezilla-project.org/) in SFTP protocol.
 
 ## Read more
 
