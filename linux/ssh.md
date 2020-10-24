@@ -60,9 +60,9 @@ When you connect to a server for the first time SSH will ask you to accept it's 
 
 If you confirm then the server's footprint will be added to your local *.ssh/known_hosts* list. If the server will be reinstalled in the future on the same ip so it's footprint will be changed and you'll get the following error if you try to connect again from the same client:
 
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
     Someone could be eavesdropping on you right now (man-in-the-middle attack)!
     It is also possible that a host key has just been changed.
