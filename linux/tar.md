@@ -37,7 +37,7 @@ Short syntax:
 
     $ tar -xf ARCHIVE.tar
 
-## Get a list of the files inside of an archive
+## Get a list of the files included into an archive
 
 Long form syntax:
 
