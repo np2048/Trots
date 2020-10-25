@@ -1,7 +1,7 @@
 
 # How to backup and restore gpg keys
 
-You can create a backup just by copying the whole *~/.gnupg* directory.
+You can create a backup just by copying the whole *~/.gnupg* directory. But this is not safe and it is not a recommend way to backup the keys as it may lead to some bugs.
 
 Or just export the secret keys:
 
