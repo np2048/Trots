@@ -73,7 +73,7 @@ If you trust the remote host and you are pretty sure that everything is OK so yo
 
 You can transfer files securely via SSH using *scp* command:
 
-    $ scp FILENAME USER@REMOTE_IP:REMOTE_DIRECTORY
+    $ scp [-P PORT] FILENAME USER@REMOTE_IP:REMOTE_DIRECTORY
 
 >Note that you can only copy files to a directory where the username you specified has write permissions.
 
