@@ -1,7 +1,7 @@
 
 # How to use the TAR utility in Linux command line
 
-*TAR* allows you to glue multiple files and directories into a single file. It may be convenient for future encryption or a transmission.
+*TAR* allows you to glue multiple files and directories into a single file. It may be convenient for future encryption or transmission.
 
 *TAR* works much faster then *ZIP* because it doesn't do complex processing of the data.
 
@@ -10,8 +10,11 @@
 You can execute *TAR* operations by calling it in a short syntax or in a long descriptive form. The most usefull options are listed below.
 
 **-f**, --file=FILENAME — name of a TAR archive file. It is used both for input and output files.
+
 **-c**, --create — create *TAR* archive
+
 **-t**, --list — show the list of files inside of an archive
+
 **-x**, --extract — extract files from an archive
 
 ## Create new .tar archive
@@ -34,7 +37,7 @@ Short syntax:
 
     $ tar -xf ARCHIVE.tar
 
-## Get file list into an archive
+## Get a list of the files inside of an archive
 
 Long form syntax:
 
