@@ -31,6 +31,14 @@
 
 [View supported by current version algorithms list](#version)
 
+<a name='backup'></a>
+
+[Backup and restore keys](gpg/backup.md)
+
+<a name='sync'></a>
+
+[Sync keys: secure keys transmission](gpg/sync.md)
+
 [Read more](#more)
 
 <a name='init'></a>
