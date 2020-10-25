@@ -10,6 +10,10 @@ where:
 - **-a** or --armor — Create ASCII armored output
 - **OTHER_MACHINE** — IP address or hostname of remote SSH server that will receive the keys
 
+## Export keys into a file
+
+See [gpg key backup trot](backup.md).
+
 ## Read more
 
 [How to share one pgp-key on multiple machines?](https://askubuntu.com/questions/32438/how-to-share-one-pgp-key-on-multiple-machines)
