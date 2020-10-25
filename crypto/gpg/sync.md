@@ -3,7 +3,7 @@
 
 If you need to share the same keys on multiple devices the safest way to transfer the keys is to use [SSH](../../linux/ssh.md) without an intermediate file:
 
-    $ gpg --export-secret-keys -a | ssh OTHER_MACHINE gpg --import
+    $ gpg --export-secret-keys -a [KEY_ID] | ssh OTHER_MACHINE gpg --import --no-tty --batch --yes
 
 where:
 
