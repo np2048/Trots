@@ -39,6 +39,8 @@
 
 [Sync keys: secure keys transmission](gpg/sync.md)
 
+[Android application](#android)
+
 [Read more](#more)
 
 <a name='init'></a>
@@ -53,6 +55,12 @@
 ## View supported by current version algorithms list
 
     $ gpg --version
+
+<a name='android'></a>
+
+## Android version
+
+There is an open source application for key management for Android: [OpenKeyChain](https://www.openkeychain.org/).
 
 <a name='more'></a>
 
