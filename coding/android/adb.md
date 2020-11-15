@@ -1,6 +1,47 @@
 
 # Android Debug Bridge
 
+## adb list connected devices
+
+When you connect a device to USB it should be detected automatically and appear in adb connected devices list:
+
+    $ adb devices
+
+If you see a warning: [no permissions](#permissions) near to the device ID in the list, [solve this issue as described below](#permissions).
+
+If you connect a device but it's not in the list make sure that you have enabled debug mode and adb on the device.
+
+
+## adb transfer file to connected device
+
+Save a local file to device's MicroSD card:
+
+    $ adb push FILENAME /sdcard1/
+
+Save a local file to device's internal SD card:
+
+    $ adb push FILENAME /sdcard/
+
+## adb shell
+
+You can execute shell commands on the device as root if you connect via adb:
+
+    $ adb shell
+
+To terminate the shell session type:
+
+    # exit
+
+To execute a single shell command:
+
+    $ adb shell ls /
+
+Where: 
+  
+- **ls /** is the command to be executed
+
+<a name="permissions"></a>
+
 ## adb devices no permissions;
 
     $ lsusb
