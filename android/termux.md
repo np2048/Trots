@@ -22,7 +22,7 @@ You can install *OpenSSH* in *Termux* to be able to connect to your device via S
 
 ### Install the server
 
-    $ pkg upgdare
+    $ pkg upgrade
     $ pkg install openssh
 
 <a name='ssh-gen'></a>
