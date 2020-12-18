@@ -14,7 +14,34 @@ You only need the secret keys as they are used to decrypt data. But you can expo
 
 Later you can restore keys using the *--import* option:
 
-    $ gpg --import secret-backup.gpg
+    $ gpg --import key.gpg
+
+After you import a key from a backup you'll have to make this key trusted. If you skip this step you will get an error on encrypt step:
+
+    gpg: [KEY_ID]: There is no assurance this key belongs to the named user
+    gpg: [stdin]: encryption failed: Unusable public key
+    Password encryption aborted.
+
+To mark the key as trusted execute:
+
+    $ gpg --edit-key KEY_ID
+    gpg> trust
+
+where:
+
+**KEY_ID** — is the ID that you can get from the error message
+
+    Please decide how far you trust this user to correctly verify other users' keys
+    (by looking at passports, checking fingerprints from different sources, etc.)
+        1 = I don't know or won't say
+        2 = I do NOT trust
+        3 = I trust marginally
+        4 = I trust fully
+        5 = I trust ultimately
+        m = back to the main menu
+    Your decision? 5
+    Do you really want to set this key to ultimate trust? (y/N) y
+
 
 ## Read more
 

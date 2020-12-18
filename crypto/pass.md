@@ -92,6 +92,11 @@ Check for changes on the remote repository and apply them to local files:
 
     $ git pull
 
+## Init from a github repository
+
+    $ cd ~
+    $ git clone https://github.com/USERNAME/REPOSITORY/ .password-store
+
 ## Manually decrypt a password file
 
 You can manually decrypt a password file from the storage using [gpg](gpg/decrypt.md):
