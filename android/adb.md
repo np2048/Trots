@@ -65,3 +65,40 @@ Add one rule for each unique idVendor:
     SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", MODE="0666", GROUP="plugdev"
 
 Reboot the system to apply the changes. If you don't want to reboot the whole system you may reboot *udev* only.
+
+
+## wireless adb connection via wifi
+
+Connect a device and PC to the same wifi network.
+
+Connect a device using a USB cable in debug mode. 
+
+Open terminal on the PC and run a command:
+
+    $ adb tcpip 5555
+    restarting in TCP mode port: 5555
+
+Where:
+
+- 5555 — is a port number (you can use any free port)
+
+Disconnect USB cable but don’t close Terminal/Command Prompt. Then get the divice IP number in the settings menu at **System - About phone - Status - IP address**.
+
+Run a command in the terminal:
+
+    $ adb connect 192.168.1.67:5555  
+    connected to 192.168.1.67:5555
+
+Where:
+
+- 192.168.1.67 — is the IP address of the device
+- 5555 — is the port number you've choosen in the previous step.
+
+That's all. Have fun.
+
+## Read more
+
+[How to Use ADB Wirelessly on Your Android Device](https://beebom.com/how-use-adb-wirelessly-android-device/)
+
+
+
