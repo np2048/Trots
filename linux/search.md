@@ -7,9 +7,11 @@
 
 Search files by name:
 
-    $ find [PATH] -name 'FILENAME'
+    $ find [PATH] -name 'FILENAME' -print 2>/dev/null
 
 Default path is current directory.
+
+**-print 2>/dev/null** hides SPAM messages such as "Permission denied".
 
 You can use * in FILENAME as wildcard symbol:
     
