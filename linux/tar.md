@@ -1,6 +1,30 @@
 
 # How to use the TAR utility in Linux command line
 
+## Extract files from a tar.gz archive
+
+    $ tar -xvzf ARCHIVE.tar -C /OUTPUT/DIR
+
+## Extract files from a tar archive
+
+Long form syntax:
+
+    $ tar --extract --file=ARCHIVE.tar
+
+Short syntax:
+
+    $ tar -xf ARCHIVE.tar
+
+## Get a list of the files included into an archive
+
+Long form syntax:
+
+    $ tar --list --file=ARCHIVE.tar
+
+Short syntax:
+
+    $ tar -tf pass.tar
+
 *TAR* allows you to glue multiple files and directories into a single file. It may be convenient for future encryption or transmission.
 
 *TAR* works much faster then *ZIP* because it doesn't do complex processing of the data.
@@ -26,26 +50,6 @@ Long form syntax:
 Short syntax:
 
     $ tar -cf ARCHIVE.tar INPUT_FILE_OR_DIRECTORY
-
-## Extract files from a tar archive
-
-Long form syntax:
-
-    $ tar --extract --file=ARCHIVE.tar
-
-Short syntax:
-
-    $ tar -xf ARCHIVE.tar
-
-## Get a list of the files included into an archive
-
-Long form syntax:
-
-    $ tar --list --file=ARCHIVE.tar
-
-Short syntax:
-
-    $ tar -tf pass.tar
 
 ## Read more
 
